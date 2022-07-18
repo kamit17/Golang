@@ -12,4 +12,5 @@ func main() {
 	fmt.Println("Address of variable a = ", &a)
 	fmt.Println("Value stored in variable p = ", p)
 	fmt.Println("Address of variable p = ", &p)
+	fmt.Println("*p = ", *p)
 }
