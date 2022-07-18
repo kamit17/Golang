@@ -31,6 +31,7 @@ func printEmployee(employees map[int]string, employeeId int) {
 	}
 }
 
+//check for existence of a key without retreiveing the value associatd with that key
 func isEmployeeExists(employees map[int]string, employeeId int) bool {
 	_, ok := employees[employeeId]
 	return ok
