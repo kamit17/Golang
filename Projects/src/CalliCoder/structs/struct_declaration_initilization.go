@@ -17,7 +17,7 @@ func main() {
 	var p Person // All strunct fileds are initialized with their zero value
 	fmt.Println(p)
 
-	//Declaring and initilizing a strunt using a struct literal
+	//Declaring and initilizing a struct using a struct literal
 
 	p1 := Person{"Rajeev", "Singh", 26}
 	fmt.Println("Person1: ", p1)
