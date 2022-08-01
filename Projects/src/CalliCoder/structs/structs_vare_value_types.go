@@ -13,7 +13,7 @@ type Point struct {
 func main() {
 	//Structs are value types.
 	p1 := Point{10, 20}
-	pr := p1 //A copy of the struct 'p1' is assigned to 'p2'
+	p2 := p1 //A copy of the struct 'p1' is assigned to 'p2'
 	fmt.Println("p1 =  ", p1)
 	fmt.Println("p2 = ", p2)
 
