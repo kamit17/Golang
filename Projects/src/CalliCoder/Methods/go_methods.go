@@ -1,4 +1,4 @@
-// A method is nothing but a functin with a special ceiver argument
+// A method is nothing but a functin with a special receiver argument
 
 //func (receiver Type) MethodName(paramenter list) (returnTypes){
 
