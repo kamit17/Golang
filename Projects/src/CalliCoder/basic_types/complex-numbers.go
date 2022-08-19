@@ -9,6 +9,7 @@ import "fmt"
 func main() {
 	var a = 3 + 5i
 	var b = 2 + 4i
+	var c = complex(a, b)
 
 	var res1 = a + b
 	var res2 = a - b
