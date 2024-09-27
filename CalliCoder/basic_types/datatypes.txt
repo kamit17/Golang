@@ -1,0 +1,83 @@
+1 ) integers
+-- store whole numbers.
+Signed integers
+----------------------------------------------
+Type   | Size       |  Range
+-----------------------------------------------
+int 8  | 8 bits     | -128 to 127
+-----------------------------------------------
+int 16 | 16 bits    | -2 ^15 to 2^15 -1
+-----------------------------------------------
+int32  | 32 bits    | -2^31 to 2^31 -1
+-----------------------------------------------
+int 64 | 64 bits    | -2^63 to 2^63 -1
+-----------------------------------------------
+int    | platform dependent | platform dependent 
+-----------------------------------------------
+
+Unsigned integers
+----------------------------------------------
+Type   | Size       |  Range
+-----------------------------------------------
+uint 8  | 8 bits     | 0 to 255
+-----------------------------------------------
+uint 16 | 16 bits    | 0 to 2^16 -1
+-----------------------------------------------
+uint32  | 32 bits    | 0 to 2^32 -1
+-----------------------------------------------
+uint 64 | 64 bits    | 0 to 2^64 -1
+-----------------------------------------------
+uint    | platform dependent | platform dependent 
+-----------------------------------------------
+
+When you are working with integer values, you should alwasy suse the int data type .
+
+Integer Type aliases
+Golang has two additional integer types called byte and rune that are aliases for uint8 and int32 data types.
+
+----------------------------------------------
+Type   | Alias for 
+-----------------------------------------------
+byte |  uint8
+-----------------------------------------------
+rune | int32
+-----------------------------------------------
+
+Byte and rune are used to distinguish characters from integer values. they are used to represent character values since golang doesn't have  char data type.
+
+* Characters are expressed by enclosing them in single quotes like this : 'A'
+*Default type for character values is rune.
+
+* byte variable can be created  by stating the type
+var lastLetter byte = 'Z'
+
+
+2. Floating point types
+* float32  -- 32 bits
+* float64  -- 64 bits  (default value)
+
+
+3. Boolean
+* bool data type to store boolean values - Can store only two types of values -- True and false
+
+4 . Complex numbers
+* complex64 : both real and imaginary parts are of float32 type
+* complex128 : both real and imaginary  parts are of float64 type. -- default type
+syntax :
+var x = 5 + 7i  // TYpe inferred as complex 128
+* To create complex numbers with cariables instead of literls, you will need to use the complex function.
+var a = 3.57
+var b = 6.23
+
+var c = complex(a,b)
+* both real and imaginary parts must  be of same floating type .
+
+4. Strings
+* string is a sequence of bytes
+* strings are declared using either doubles quotes " " or back ticks ' ' .
+* Double quoted strings cannot have new lines and can have escape characters. \n - new line, \t - tab space
+* strings within back ticks are raw strings. They can span multiple lines.
+
+
+
+
